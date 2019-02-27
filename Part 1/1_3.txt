@@ -1,0 +1,28 @@
++----------------------+    +----------------------+    +-----------------------+
+|       Author         |    |        Book          |    |        Patron         |
+|    id - int          |    |    id - int          |    |    id - int           |
+|                      |    |                      |    |                       |
+|    name - str        |    |    title - str       |    |    name - str         |
+|                      |    |                      |    |                       |
+|                      |    |    isbn - int        |    |    card_number - int  |
+|                      |    |                      |    |                       |
+|                      |    |    author_id - int   |    |    email - str        |
+|                      |    |                      |    |                       |
+|                      |    |                      |    |                       |
++----------------------+    +----------------------+    +-----------------------+
+
+
+
++----------------------+    +----------------------+
+|        Hold          |    |        Loan          |
+|    id - int          |    |    id - int          |
+|                      |    |                      |
+|date_placed - date_obj|    |    due_date- date obj|
+|                      |    |                      |
+|   book_id - int      |    |    renewed? - bool   |
+|                      |    |                      |
+|   patron_id - int    |    |    book_id - int     |
+|                      |    |                      |
+|                      |    |    patron_id - int   |
+|                      |    |                      |
++----------------------+    +----------------------+

@@ -1,0 +1,28 @@
++----------------------+    +----------------------+    +-----------------------+
+|       Country        |    |       Province       |    |         City          |
+| name - str           |    |    name - str        |    |   name - str          |
+|                      |    |                      |    |                       |
+| year_founded - int   |    |    year_founded - int|    |   year_founded - int  |
+|                      |    |                      |    |                       |
+| national_animal - str|    |    id - int (primary)|    |   id - int (primary)  |
+|                      |    |                      |    |                       |
+| id - int(primary key)|    |    country_id - int  |    |   province_id - int   |
+|                      |    |                      |    |                       |
+|                      |    |                      |    |                       |
++----------------------+    +----------------------+    +-----------------------+
+
+
+
++----------------------+    +----------------------+
+|       Residence      |    |       Person         |
+|    address - str     |    |    name - str        |
+|                      |    |                      |
+|    year_built - int  |    |    age - int         |
+|                      |    |                      |
+|    id - int (primary)|    |    id  - int(primary)|
+|                      |    |                      |
+|    city_id - int     |    |    residence_id - int|
+|                      |    |                      |
+|                      |    |                      |
+|                      |    |                      |
++----------------------+    +----------------------+

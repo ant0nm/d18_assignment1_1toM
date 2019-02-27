@@ -1,0 +1,14 @@
++---------------------------+         +---------------------------+
+|         Customer          |         |           Order           |
+|    id - int (primary key) |         |    id - int (primary key) |
+|                           |         |                           |
+|    email - str            |         |    order number - int     |
+|                           |         |                           |
+|    mailing address - str  |         |    date - date object     |
+|                           |         |                           |
+|    name - str             |         |    customer_id - int      |
+|                           |         |                           |
+|                           |         |                           |
+|                           |         |                           |
+|                           |         |                           |
++---------------------------+         +---------------------------+
